@@ -471,7 +471,7 @@
         function sendEmail(e) {
             e.preventDefault();
 
-            emailjs.sendForm('service_zko1lel', 'template_7p7hmtd', e.target)
+            emailjs.sendForm('service_zko1lel', 'template_7p7hmtd', e.target)     /* emailjs.sendForm('service_ID', 'template_ID', e.target) */
                 .then(function () {
                     alert('Message sent successfully!');
                 }, function (error) {
@@ -538,4 +538,3 @@
 
 </body>
 </html>
-
